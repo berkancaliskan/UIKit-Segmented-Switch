@@ -1,0 +1,6 @@
+framework module Pods_UIKit_Slider_Switch_Segmented_Steppers {
+  umbrella header "Pods-UIKit-Slider-Switch-Segmented-Steppers-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,20 @@
+PODS:
+  - Hero (1.6.1)
+  - lottie-ios (3.3.0)
+
+DEPENDENCIES:
+  - Hero
+  - lottie-ios
+
+SPEC REPOS:
+  trunk:
+    - Hero
+    - lottie-ios
+
+SPEC CHECKSUMS:
+  Hero: 215865ba3ae41dd9bb08cd6c60a645529c6fc94b
+  lottie-ios: 6ac74dcc09904798f59b18cb3075c089d76be9ae
+
+PODFILE CHECKSUM: e9ea2c54d244fcbd6b591487ead3f64f99d5facc
+
+COCOAPODS: 1.11.2
