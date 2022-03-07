@@ -64,7 +64,7 @@ class SwitchVC: UIViewController {
         
 //        X'i ekranın yarısından switchin widthinin yarısının farkı kadar olsun böylelikle ekran boyutu değişse de tam ortada duracak.
         lampSwitch.frame = CGRect(x: screenWidth/2 - lampSwitch.frame.width/2,
-                                  y: 500,
+                                  y: 550,
                                   width: lampSwitch.frame.width,
                                   height: lampSwitch.frame.height)
         lampSwitch.isOn = true

@@ -36,18 +36,24 @@ class StepperVC: UIViewController {
         stepper.layer.borderColor = UIColor.systemOrange.cgColor
         stepper.layer.cornerRadius = 8
         stepper.frame = CGRect(x: screenWidth/2 - stepper.frame.width/2,
-                                                     y: 300,
-                                                     width: stepper.frame.width,
-                                                     height: stepper.frame.height)
+                               y: 300,
+                               width: stepper.frame.width,
+                               height: stepper.frame.height)
+// UIStepper'a width ve height vermek için kullanmak için transform kullanıyoruz.
         stepper.transform = CGAffineTransform(scaleX: 1.5, y: 1.6)
         stepper.maximumValue = 60
         stepper.minimumValue = 0
+// UIStepper değerini eş zamanlı olarak hareket etmesini istiyorsak true olmalı.
         stepper.isContinuous = true
 // UIStepper değerini maximum olunca baştan devam ettirir.
-        stepper.wraps = true
-// Düğmeye basılı tutarsanız, UIStepper değeri sürekli olarak artar
+        stepper.wraps = false
+// Düğmeye basılı tutarsanız, UIStepper değeri sürekli olarak artar.
         stepper.autorepeat = true
-        stepper.backgroundColor = UIColor(red: 1.00, green: 0.99, blue: 0.87, alpha: 1.00)
+        stepper.backgroundColor = UIColor(red: 1.00,
+                                          green: 0.99,
+                                          blue: 0.87,
+                                          alpha: 1.00)
+// UIStepper değerinde kaçar kaçar artıp azalacağını belirtiyoruz.
         stepper.stepValue = 3
         stepper.tintColor = UIColor.red
     view.addSubview(stepper)
@@ -64,9 +70,9 @@ class StepperVC: UIViewController {
         stepperLabel.numberOfLines = 0
         stepperLabel.font = GBookBig
         stepperLabel.frame = CGRect(x: 0.1 * screenWidth,
-                                   y: 0.43 * screenHeight,
-                                   width: 0.8 * screenWidth,
-                                   height: 0.18 * screenHeight)
+                                    y: 0.43 * screenHeight,
+                                    width: 0.8 * screenWidth,
+                                    height: 0.18 * screenHeight)
         view.addSubview(stepperLabel)
         
     }

@@ -87,19 +87,14 @@
 		0743D0D027D0A68900B5676E /* UIKit-Slider-Switch-Segmented-Steppers */ = {
 			isa = PBXGroup;
 			children = (
-				0743D0E527D0AA1900B5676E /* MainVC.swift */,
+				0743D0DA27D0A68A00B5676E /* Assets.xcassets */,
 				0743D0E727D0ABBD00B5676E /* Globals.swift */,
 				0743D0D127D0A68900B5676E /* AppDelegate.swift */,
+				078FDEB427D5EA4500CD38B1 /* ViewControllers */,
 				07707E8B27D0F513000CEFE6 /* Font */,
-				0743D0DA27D0A68A00B5676E /* Assets.xcassets */,
-				0743D0DC27D0A68A00B5676E /* LaunchScreen.storyboard */,
+				078FDEB327D5EA0900CD38B1 /* Lotties */,
 				0743D0DF27D0A68A00B5676E /* Info.plist */,
-				07707E8527D0F2BA000CEFE6 /* SliderVC.swift */,
-				07707E8727D0F2CD000CEFE6 /* SegmentedVC.swift */,
-				07707E8327D0F2A2000CEFE6 /* SwitchVC.swift */,
-				07707E8927D0F2F8000CEFE6 /* StepperVC.swift */,
-				07495F2027D23E2400A66610 /* confetti.json */,
-				07707E9227D0FFD6000CEFE6 /* lamp.json */,
+				0743D0DC27D0A68A00B5676E /* LaunchScreen.storyboard */,
 			);
 			path = "UIKit-Slider-Switch-Segmented-Steppers";
 			sourceTree = "<group>";
@@ -112,6 +107,27 @@
 				07707E8E27D0F513000CEFE6 /* Graphie-SemiBoldItalic.otf */,
 			);
 			path = Font;
+			sourceTree = "<group>";
+		};
+		078FDEB327D5EA0900CD38B1 /* Lotties */ = {
+			isa = PBXGroup;
+			children = (
+				07707E9227D0FFD6000CEFE6 /* lamp.json */,
+				07495F2027D23E2400A66610 /* confetti.json */,
+			);
+			path = Lotties;
+			sourceTree = "<group>";
+		};
+		078FDEB427D5EA4500CD38B1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0743D0E527D0AA1900B5676E /* MainVC.swift */,
+				07707E8527D0F2BA000CEFE6 /* SliderVC.swift */,
+				07707E8727D0F2CD000CEFE6 /* SegmentedVC.swift */,
+				07707E8327D0F2A2000CEFE6 /* SwitchVC.swift */,
+				07707E8927D0F2F8000CEFE6 /* StepperVC.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		B29B2318B6F04872F134FC62 /* Pods */ = {

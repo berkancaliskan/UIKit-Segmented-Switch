@@ -23,27 +23,24 @@ class SegmentedVC: UIViewController {
     func createSC(){
         let screenHeight = view.frame.size.height
         let screenWidth = view.frame.size.width
-        let stringMultiplier = 0.00115 * screenHeight
-        
 
-        
         let items = ["Mavi", "Mor", "Sarı"]
         let customSC = UISegmentedControl(items: items)
         customSC.selectedSegmentIndex = 0
         self.view.backgroundColor = UIColor(red: 0.77, green: 0.87, blue: 0.96, alpha: 1.00)
 
-        // Set up Frame and SegmentedControl
+        //SegmentedControl
         customSC.frame = CGRect(x: 0.1 * screenWidth , y: 0.15 * screenHeight ,width: 0.8 * screenWidth, height: 0.05 * screenHeight)
 
-        // Style the Segmented Control
+        //SegmentedControl görünümünü özelleştiriyoruz.
         customSC.layer.cornerRadius = 5.0
         customSC.backgroundColor = UIColor(red: 0.99, green: 0.90, blue: 0.80, alpha: 1.00)
         customSC.selectedSegmentTintColor = UIColor(red: 0.82, green: 0.97, blue: 0.47, alpha: 1.00)
     
         
-        // Add target action method
+        //Aksiyon ekliyoruz
         customSC.addTarget(self, action: #selector(changeColor), for: .valueChanged)
-        // Add this custom Segmented Control to our view
+        
         self.view.addSubview(customSC)
     
     }
@@ -52,7 +49,6 @@ class SegmentedVC: UIViewController {
         let screenWidth = view.frame.size.width
         let stringMultiplier = 0.00115 * screenHeight
         
-
         colorInfoTitle.text = NSLocalizedString("🟦 Mavi", comment:"")
         colorInfoTitle.textAlignment = .center
         colorInfoTitle.textColor = .darkGray
@@ -71,7 +67,6 @@ class SegmentedVC: UIViewController {
         view.addSubview(colorInfo)
       
         
-
         colorImg.image = UIImage(named: "blue-bg")
         colorImg.frame = CGRect(x: screenWidth * 0.1, y: screenHeight * 0.56 ,width: screenWidth * 0.8, height: screenWidth * 0.4)
         colorImg.layer.cornerRadius = 30

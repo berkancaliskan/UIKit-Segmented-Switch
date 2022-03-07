@@ -30,12 +30,12 @@ class MainVC: UIViewController {
         holderTitle.textColor = .darkGray
         holderTitle.font = GBoldBig
         holderTitle.numberOfLines = 0
-        holderTitle.frame = CGRect(x: 0.1 * screenWidth, y: 0.415 * screenHeight, width: 0.8 * screenWidth, height: 0.1 * screenHeight)
+        holderTitle.frame = CGRect(x: 0.1 * screenWidth, y: 0.38 * screenHeight, width: 0.8 * screenWidth, height: 0.1 * screenHeight)
         view.addSubview(holderTitle)
         
         
         let switchTitle = UILabel()
-        switchTitle.text = NSLocalizedString("UISwitch", comment:"")
+        switchTitle.text = NSLocalizedString("UISwitch, UISegmentedControl, UISlider, UIStepper", comment:"")
         switchTitle.textAlignment = .center
         switchTitle.textColor = .darkGray
         switchTitle.numberOfLines = 0
@@ -46,7 +46,7 @@ class MainVC: UIViewController {
         
         let swiftImg = UIImageView()
         swiftImg.image = UIImage(named: "swift-logo")
-        swiftImg.frame = CGRect(x: screenWidth * 0.3, y: screenHeight * 0.18 ,width: screenWidth * 0.4, height: screenWidth * 0.4)
+        swiftImg.frame = CGRect(x: screenWidth * 0.3, y: screenHeight * 0.17 ,width: screenWidth * 0.4, height: screenWidth * 0.4)
         view.addSubview(swiftImg)
         
 
@@ -56,7 +56,7 @@ class MainVC: UIViewController {
         switchTitleButton.layer.cornerRadius = 8
         switchTitleButton.setTitleColor(UIColor.white, for: UIControl.State.normal)
         switchTitleButton.titleLabel?.font = GBook
-        switchTitleButton.frame = CGRect(x: 0.14 * screenWidth, y: 0.61 * screenHeight, width: 0.72 * screenWidth, height: 0.056 * screenHeight)
+        switchTitleButton.frame = CGRect(x: 0.14 * screenWidth, y: 0.63 * screenHeight, width: 0.72 * screenWidth, height: 0.057 * screenHeight)
         view.addSubview(switchTitleButton)
         switchTitleButton.addTarget(self, action: #selector(switchClicked), for: UIControl.Event.touchUpInside)
         
@@ -66,7 +66,7 @@ class MainVC: UIViewController {
         segmentButton.layer.cornerRadius = 8
         segmentButton.setTitleColor(UIColor.white, for: UIControl.State.normal)
         segmentButton.titleLabel?.font = GBook
-        segmentButton.frame = CGRect(x: 0.14 * screenWidth, y: 0.68 * screenHeight, width: 0.72 * screenWidth, height: 0.056 * screenHeight)
+        segmentButton.frame = CGRect(x: 0.14 * screenWidth, y: 0.7 * screenHeight, width: 0.72 * screenWidth, height: 0.057 * screenHeight)
         view.addSubview(segmentButton)
         segmentButton.addTarget(self, action: #selector(segmentedClicked), for: UIControl.Event.touchUpInside)
         
@@ -77,7 +77,7 @@ class MainVC: UIViewController {
         sliderButton.layer.cornerRadius = 8
         sliderButton.setTitleColor(UIColor.white, for: UIControl.State.normal)
         sliderButton.titleLabel?.font = GBook
-        sliderButton.frame = CGRect(x: 0.14 * screenWidth, y: 0.75 * screenHeight, width: 0.72 * screenWidth, height: 0.056 * screenHeight)
+        sliderButton.frame = CGRect(x: 0.14 * screenWidth, y: 0.77 * screenHeight, width: 0.72 * screenWidth, height: 0.057 * screenHeight)
         view.addSubview(sliderButton)
         sliderButton.addTarget(self, action: #selector(sliderClicked), for: UIControl.Event.touchUpInside)
         
@@ -87,7 +87,7 @@ class MainVC: UIViewController {
         stepperButton.setTitleColor(UIColor.white, for: UIControl.State.normal)
         stepperButton.layer.cornerRadius = 8
         stepperButton.titleLabel?.font = GBook
-        stepperButton.frame = CGRect(x: 0.14 * screenWidth, y: 0.82 * screenHeight, width: 0.72 * screenWidth, height: 0.056 * screenHeight)
+        stepperButton.frame = CGRect(x: 0.14 * screenWidth, y: 0.84 * screenHeight, width: 0.72 * screenWidth, height: 0.057 * screenHeight)
         view.addSubview(stepperButton)
         stepperButton.addTarget(self, action: #selector(stepperClicked), for: UIControl.Event.touchUpInside)
         
