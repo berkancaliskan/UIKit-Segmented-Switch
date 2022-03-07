@@ -62,7 +62,7 @@ class SwitchVC: UIViewController {
     func createSwitch(){
         let screenWidth = view.frame.size.width
         
-//        X'i ekranın yarısından switchin widthinin yarısının farkı kadar olsun böylelikle ekran boyutu değişse de tam ortada duracak.
+// X'i ekranın yarısından switchin widthinin yarısının farkı kadar olsun böylelikle ekran boyutu değişse de tam ortada duracak.
         lampSwitch.frame = CGRect(x: screenWidth/2 - lampSwitch.frame.width/2,
                                   y: 550,
                                   width: lampSwitch.frame.width,
