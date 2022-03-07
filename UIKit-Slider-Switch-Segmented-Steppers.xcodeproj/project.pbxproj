@@ -12,6 +12,7 @@
 		0743D0DE27D0A68A00B5676E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0743D0DC27D0A68A00B5676E /* LaunchScreen.storyboard */; };
 		0743D0E627D0AA1900B5676E /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0743D0E527D0AA1900B5676E /* MainVC.swift */; };
 		0743D0E827D0ABBD00B5676E /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0743D0E727D0ABBD00B5676E /* Globals.swift */; };
+		07495F2127D23E2400A66610 /* confetti.json in Resources */ = {isa = PBXBuildFile; fileRef = 07495F2027D23E2400A66610 /* confetti.json */; };
 		07707E8427D0F2A2000CEFE6 /* SwitchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07707E8327D0F2A2000CEFE6 /* SwitchVC.swift */; };
 		07707E8627D0F2BA000CEFE6 /* SliderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07707E8527D0F2BA000CEFE6 /* SliderVC.swift */; };
 		07707E8827D0F2CD000CEFE6 /* SegmentedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07707E8727D0F2CD000CEFE6 /* SegmentedVC.swift */; };
@@ -31,6 +32,7 @@
 		0743D0DF27D0A68A00B5676E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0743D0E527D0AA1900B5676E /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		0743D0E727D0ABBD00B5676E /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		07495F2027D23E2400A66610 /* confetti.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = confetti.json; sourceTree = "<group>"; };
 		07707E8327D0F2A2000CEFE6 /* SwitchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchVC.swift; sourceTree = "<group>"; };
 		07707E8527D0F2BA000CEFE6 /* SliderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderVC.swift; sourceTree = "<group>"; };
 		07707E8727D0F2CD000CEFE6 /* SegmentedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedVC.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 				07707E8727D0F2CD000CEFE6 /* SegmentedVC.swift */,
 				07707E8327D0F2A2000CEFE6 /* SwitchVC.swift */,
 				07707E8927D0F2F8000CEFE6 /* StepperVC.swift */,
+				07495F2027D23E2400A66610 /* confetti.json */,
 				07707E9227D0FFD6000CEFE6 /* lamp.json */,
 			);
 			path = "UIKit-Slider-Switch-Segmented-Steppers";
@@ -117,7 +120,6 @@
 				9A20F77526E68A9112E19DF9 /* Pods-UIKit-Slider-Switch-Segmented-Steppers.debug.xcconfig */,
 				8786802F150B1D76B5ABF2EF /* Pods-UIKit-Slider-Switch-Segmented-Steppers.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -184,6 +186,7 @@
 				0743D0DE27D0A68A00B5676E /* LaunchScreen.storyboard in Resources */,
 				07707E8F27D0F513000CEFE6 /* Graphie-Bold.otf in Resources */,
 				0743D0DB27D0A68A00B5676E /* Assets.xcassets in Resources */,
+				07495F2127D23E2400A66610 /* confetti.json in Resources */,
 				07707E9027D0F513000CEFE6 /* Graphie-Book.otf in Resources */,
 				07707E9327D0FFD6000CEFE6 /* lamp.json in Resources */,
 				07707E9127D0F513000CEFE6 /* Graphie-SemiBoldItalic.otf in Resources */,
